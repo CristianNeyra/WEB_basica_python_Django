@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'vendors/iconly/bold.css' %}">
+    <link rel="stylesheet" href="{% static 'vendors/perfect-scrollbar/perfect-scrollbar.css' %}">
+    <link rel="stylesheet" href="{% static 'vendors/bootstrap-icons/bootstrap-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/favicon.svg' %}" type="image/x-icon">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <div id="sidebar" class="active">
+            <div class="sidebar-wrapper active">
+                <div class="sidebar-header">
+                    <div class="d-flex justify-content-between">
+                        <div class="toggler">
+                            <h4>Cristian Neyra Aviles</h4>
+                            <h5>Analista Programador</h5>
+                            <h5>CFT San Agustin, sede Talca</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-menu">
+                    <ul class="menu">
+                        <li class="sidebar-title">Menu</li>
+
+                        <li class="sidebar-item active ">
+                            <a href="../requerimiento01/" class='sidebar-link'>
+                                <i class="bi bi-grid-fill"></i>
+                                <span>Requerimiento 01</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item active ">
+                            <a href="../requerimiento02/" class='sidebar-link'>
+                                <i class="bi bi-grid-fill"></i>
+                                <span>Requerimiento 02</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item active ">
+                            <a href="../requerimiento03/" class='sidebar-link'>
+                                <i class="bi bi-grid-fill"></i>
+                                <span>Requerimiento 03</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item active ">
+                            <a href="../admin/" class='sidebar-link'>
+                                <i class="bi bi-grid-fill"></i>
+                                <span>Requerimiento 04</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <header class="mb-3">
+            <a href="#" class="burger-btn d-block d-xl-none">
+                <i class="bi bi-justify fs-3"></i>
+            </a>
+        </header>
+
+        <div class="page-heading">
+            <H1>Correo enviado</H1>
+        </div>
+        <br />
+
+
+    </div>
+
+    <script src="{% static 'vendors/perfect-scrollbar/perfect-scrollbar.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'vendors/apexcharts/apexcharts.js' %}"></script>
+    <script src="{% static 'js/pages/dashboard.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
